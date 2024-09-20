@@ -16,3 +16,6 @@
 
 ## Salir de la APPI
 - Ctrl-c
+
+
+curl -X 'GET' 'https://8000-kfpympex-myfirstapi-3yhhl9kxkgs.ws-us116.gitpod.io/inicio' -H 'accept: application/json'

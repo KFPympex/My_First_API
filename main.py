@@ -28,3 +28,14 @@ def get_incremento(numero : int):
     return {"Resultado" : numero}
 
 
+
+
+# QUERY PARAMS
+
+@app.get("/suma")
+def get_suma(num1: float, num2: float):
+    resultado = num1 + num2
+    return {
+        "resultado": resultado
+    }
+# /suma?num1=5&num2=10
